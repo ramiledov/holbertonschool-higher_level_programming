@@ -1,3 +1,4 @@
 #!/usr/bin/python3
-def square_matrix_simple(matrix=[]):
-    return [[x ** 2 for x in row] for row in matrix]
+def print_list_integer(my_list=[]):
+    for i in my_list:
+        print("{:d}".format(i))
